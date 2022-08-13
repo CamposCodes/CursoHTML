@@ -1,0 +1,38 @@
+<!-- Aula 10 : Formulários - parte 2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 10 : Formulários - parte 2</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <div>        
+            Nome: <input type="text" required/> <!-- entrada tipo texto // com o 'required' o campo se torna obrigatorio de ser preencida-->
+        </div>
+
+        <div>
+            Idade: <input type="number" required/> <!-- entrada tipo numero // com o 'required' o campo se torna obrigatorio de ser preencida -->
+        </div>
+
+        <!-- menu suspenso - <select> -->
+        
+        <div>
+            <select> <!-- uma unica escolha -->
+                <option>Professor</option>
+                <option selected>Aluno</option> <!-- essa opção ja vem selecionada pelo uso do selected -->
+            </select>
+        </div>
+
+        <div>
+            <select multiple> <!-- multiplas escolhas -->
+                <option selected>Criação de sites</option>
+                <option>Criação de jogos</option>
+                <option selected>Criação de Apps</option>
+            </select>
+        </div>
+    </form>
+    
+</body>
+</html>

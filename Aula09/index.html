@@ -1,0 +1,50 @@
+<!-- Aula 9: Formulários - parte 1 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 9: Formulários - parte 1</title>
+</head>
+<body>
+    <!-- Os formulários permitem que o usuario se comunique com o site, inserindo dados par enviarmos para o banco de dados -->
+
+    <h1>Formulário</h1>
+    <form>
+        <div>        
+            Nome: <input type="text" required/> <!-- entrada tipo texto // com o 'required' o campo se torna obrigatorio de ser preencida-->
+        </div>
+
+        <div>
+            Idade: <input type="number" required/> <!-- entrada tipo numero // com o 'required' o campo se torna obrigatorio de ser preencida -->
+        </div>
+
+        <div>
+            <input type="checkbox" id="inscrito" checked> <!-- com 'checked' a checbox ja vem selecionada -->
+            <label for="inscrito">Está inscrito?</label> <!-- para add texto a checkbox -->
+        </div>
+
+        <div>
+            <textarea>Observações:</textarea> <!-- Caixa de texto livre -> <textarea> - usado para obs e etc -->
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar"> <!-- botao que envia dados para servidor -->
+        </div>
+    </form>
+    
+</body>
+</html>
+
+<!-- A aula aborda a criação de um formulario usando a tag '<form>' e tipos de entrada como inputs text / inputs number / inputs checkbox , além da tag <textarea> usada para obs e etc. Aborda também algumas propriedades que podem ser usadas nos inputs como: checked / required, por fim aplica exercicio para reproduzir uyma pagina de login -->
+
+<!-- 
+    + tipos de inputs: 
+
+    - type number   =   tipo numero  
+    - type text     =   tipo texto 
+    - type email    =   tipo e-mail
+    - type password =   tipo senha 
+    - type submit   =   tipo enviar 
+    - type checkbox =   tipo caixa de marcação
+    
+-->
